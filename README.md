@@ -1,5 +1,7 @@
-GeoTimeZone  [![NuGet Version](https://img.shields.io/nuget/v/GeoTimeZone.svg?style=flat)](https://www.nuget.org/packages/GeoTimeZone/) 
+GeoTimeZone
 ===========
+
+This is a fork of the original [GeoTimeZone](https://github.com/mattjohnsonpint/GeoTimeZone) that increases the level of precision to 6. This should reduce error by ~±0.75 km.
 
 Provides an IANA time zone identifier from latitude and longitude coordinates.
 
