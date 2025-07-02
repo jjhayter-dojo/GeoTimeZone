@@ -92,4 +92,11 @@ public class TimeZoneLookupTests
         var tz = TimeZoneLookup.GetTimeZone(55.6712398, 12.5114246).Result;
         Assert.Equal("Europe/Copenhagen", tz);
     }
+
+    [Fact]
+    public void Can_Lookup_TimeZone_NorthernIreland()
+    {
+        var tz = TimeZoneLookup.GetTimeZone(54.063269, -6.438342).Result;
+        Assert.Equal("Europe/London", tz);
+    }
 }

@@ -5,7 +5,7 @@ namespace GeoTimeZone.DataBuilder;
 
 public class GeohashTree : List<GeohashTreeNode>
 {
-    internal const int Precision = 7;
+    internal const int Precision = 6;
     
     internal const string Base32 = "0123456789bcdefghjkmnpqrstuvwxyz";
 

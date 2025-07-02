@@ -7,7 +7,7 @@ namespace GeoTimeZone;
 
 internal static class Geohash
 {
-    internal const int Precision = 7;
+    internal const int Precision = 6;
 
     private const string Base32 = "0123456789bcdefghjkmnpqrstuvwxyz";
     private static readonly int[] Bits = {16, 8, 4, 2, 1};
